@@ -1,0 +1,14 @@
+1.1. Напишите и упростите логическое выражение, описывающее выход следующего SystemVerilog-мoдyля.
+
+module trueBoole
+(output logic f,
+input logic а, b, с);
+
+nor (f, f1, f2, f5);
+
+or 	(f2, fЗ, f4, f5);
+not (f1, а);
+xor (f3, а, f1);
+and (f4, f3, с, а, b),
+	(f5, а, с);
+endmodule: trueBoole

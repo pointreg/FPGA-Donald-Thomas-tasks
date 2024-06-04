@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_top_sv " />
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="81.128 ns"></ZoomEndTime>
+      <Cursor1Time time="14.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="137"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/top/result" type="array">
+      <obj_property name="ElementShortName">result[2:0]</obj_property>
+      <obj_property name="ObjectShortName">result[2:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/a" type="array">
+      <obj_property name="ElementShortName">a[2:0]</obj_property>
+      <obj_property name="ObjectShortName">a[2:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/b" type="array">
+      <obj_property name="ElementShortName">b[2:0]</obj_property>
+      <obj_property name="ObjectShortName">b[2:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/cIn" type="logic">
+      <obj_property name="ElementShortName">cIn</obj_property>
+      <obj_property name="ObjectShortName">cIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/cOut" type="logic">
+      <obj_property name="ElementShortName">cOut</obj_property>
+      <obj_property name="ObjectShortName">cOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/V" type="logic">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/fn" type="array">
+      <obj_property name="ElementShortName">fn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fn[1:0]</obj_property>
+   </wvobject>
+</wave_config>
