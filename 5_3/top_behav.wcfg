@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_top_sv " />
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="895.333 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,020.934 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/top/ck" type="logic">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/reset_l" type="logic">
+      <obj_property name="ElementShortName">reset_l</obj_property>
+      <obj_property name="ObjectShortName">reset_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/go_l" type="logic">
+      <obj_property name="ElementShortName">go_l</obj_property>
+      <obj_property name="ObjectShortName">go_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/inA" type="array">
+      <obj_property name="ElementShortName">inA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inA[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/error" type="logic">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/sum" type="array">
+      <obj_property name="ElementShortName">sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/inAeq" type="logic">
+      <obj_property name="ElementShortName">inAeq</obj_property>
+      <obj_property name="ObjectShortName">inAeq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/ld_l" type="logic">
+      <obj_property name="ElementShortName">ld_l</obj_property>
+      <obj_property name="ObjectShortName">ld_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/cl_l" type="logic">
+      <obj_property name="ElementShortName">cl_l</obj_property>
+      <obj_property name="ObjectShortName">cl_l</obj_property>
+   </wvobject>
+</wave_config>

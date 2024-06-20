@@ -1,17 +1,17 @@
 module top;
-
-logic a,b,c,d;
-fourBitTest tb (.*);
+localparam outSize = 4;
+logic [outSize-1:0] abcd;
+fourBitTest #(outSize) tb (.*);
 
 endmodule
 
 
-module fourBitTest (output logic a,b,c,d);
+module fourBitTest #(parameter outSize = 4) (output logic [outSize-1:0] abcd); //task 1.2./7.1.
 
 initial begin
-	$monitor($time,", {d,c,b,a} = %b", {d,c,b,a});
-    for (bit [5:0] i = 0; i<=4'b1111; i++) begin
-        {d,c,b,a} = i;
+	$monitor($time,", abcd = %b", abcd);
+    for (bit [outSize:0] i = 0; i<=2**(outSize)-1; i++) begin
+        abcd = i;
         #1; 
     end
     $finish();

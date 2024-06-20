@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_findMax_sv_3214741199 " />
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="211.001 ns"></ZoomEndTime>
+      <Cursor1Time time="211.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="149"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/inputA" type="array">
+      <obj_property name="ElementShortName">inputA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">inputA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/maxValue" type="array">
+      <obj_property name="ElementShortName">maxValue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">maxValue[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/minValue" type="array">
+      <obj_property name="ElementShortName">minValue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">minValue[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/crc" type="array">
+      <obj_property name="ElementShortName">crc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">crc[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

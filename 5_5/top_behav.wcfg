@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_fullAdd_sv_4210071026 " />
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9,385.611 ns"></ZoomStartTime>
+      <ZoomEndTime time="9,505.912 ns"></ZoomEndTime>
+      <Cursor1Time time="9,405.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/i" type="array">
+      <obj_property name="ElementShortName">i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/k" type="array">
+      <obj_property name="ElementShortName">k[5:0]</obj_property>
+      <obj_property name="ObjectShortName">k[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/a" type="logic">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/b" type="logic">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/sum" type="array">
+      <obj_property name="ElementShortName">sum[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/neg" type="logic">
+      <obj_property name="ElementShortName">neg</obj_property>
+      <obj_property name="ObjectShortName">neg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/twosOFlow" type="logic">
+      <obj_property name="ElementShortName">twosOFlow</obj_property>
+      <obj_property name="ObjectShortName">twosOFlow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/cout" type="logic">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/cin" type="logic">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/carryOut" type="logic">
+      <obj_property name="ElementShortName">carryOut</obj_property>
+      <obj_property name="ObjectShortName">carryOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/sumRes" type="logic">
+      <obj_property name="ElementShortName">sumRes</obj_property>
+      <obj_property name="ObjectShortName">sumRes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/pos" type="array">
+      <obj_property name="ElementShortName">pos[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pos[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

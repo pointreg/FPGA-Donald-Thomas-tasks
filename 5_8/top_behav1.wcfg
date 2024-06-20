@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="89.201 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="119"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/crc_en" type="logic">
+      <obj_property name="ElementShortName">crc_en</obj_property>
+      <obj_property name="ObjectShortName">crc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/data" type="array">
+      <obj_property name="ElementShortName">data[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tb/message" type="array">
+      <obj_property name="ElementShortName">message[10:0]</obj_property>
+      <obj_property name="ObjectShortName">message[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut2/rcvd_msg" type="array">
+      <obj_property name="ElementShortName">rcvd_msg[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rcvd_msg[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tb/msg" type="logic">
+      <obj_property name="ElementShortName">msg</obj_property>
+      <obj_property name="ObjectShortName">msg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/data_out" type="logic">
+      <obj_property name="ElementShortName">data_out</obj_property>
+      <obj_property name="ObjectShortName">data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tb2/msg_err" type="logic">
+      <obj_property name="ElementShortName">msg_err</obj_property>
+      <obj_property name="ObjectShortName">msg_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/crc_out" type="array">
+      <obj_property name="ElementShortName">crc_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_out[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/OK" type="logic">
+      <obj_property name="ElementShortName">OK</obj_property>
+      <obj_property name="ObjectShortName">OK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/uut/lfsr_q" type="array">
+      <obj_property name="ElementShortName">lfsr_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_q[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/uut/lfsr_c" type="array">
+      <obj_property name="ElementShortName">lfsr_c[4:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_c[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/tb2/cntr" type="array">
+      <obj_property name="ElementShortName">cntr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cntr[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

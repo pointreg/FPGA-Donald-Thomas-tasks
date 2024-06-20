@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pay_pkg" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="137.160 ns"></ZoomStartTime>
+      <ZoomEndTime time="160.981 ns"></ZoomEndTime>
+      <Cursor1Time time="151.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider26">
+      <obj_property name="label">main signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#DCDCDC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut2/cFree" type="logic">
+      <obj_property name="ElementShortName">cFree</obj_property>
+      <obj_property name="ObjectShortName">cFree</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/pPut" type="logic">
+      <obj_property name="ElementShortName">pPut</obj_property>
+      <obj_property name="ObjectShortName">pPut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/valueToSend" type="array">
+      <obj_property name="ElementShortName">valueToSend</obj_property>
+      <obj_property name="ObjectShortName">valueToSend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/payload" type="array">
+      <obj_property name="ElementShortName">payload[7:0]</obj_property>
+      <obj_property name="ObjectShortName">payload[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut2/valueReceived" type="array">
+      <obj_property name="ElementShortName">valueReceived</obj_property>
+      <obj_property name="ObjectShortName">valueReceived</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider15">
+      <obj_property name="label">consumer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#DCDCDC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut2/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut2/transPos2" type="array">
+      <obj_property name="ElementShortName">transPos2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">transPos2[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider16">
+      <obj_property name="label">producer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#DCDCDC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/transPos" type="array">
+      <obj_property name="ElementShortName">transPos[1:0]</obj_property>
+      <obj_property name="ObjectShortName">transPos[1:0]</obj_property>
+   </wvobject>
+</wave_config>

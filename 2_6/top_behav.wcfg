@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="16.384001 us"></ZoomEndTime>
+      <Cursor1Time time="2.240000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="133"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/top/cost" type="array">
+      <obj_property name="ElementShortName">cost[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cost[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/paid" type="array">
+      <obj_property name="ElementShortName">paid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">paid[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/nickels" type="array">
+      <obj_property name="ElementShortName">nickels[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nickels[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dimes" type="array">
+      <obj_property name="ElementShortName">dimes[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dimes[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/quaters" type="array">
+      <obj_property name="ElementShortName">quaters[1:0]</obj_property>
+      <obj_property name="ObjectShortName">quaters[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/firstCoin" type="array">
+      <obj_property name="ElementShortName">firstCoin[2:0]</obj_property>
+      <obj_property name="ObjectShortName">firstCoin[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/secondCoin" type="array">
+      <obj_property name="ElementShortName">secondCoin[2:0]</obj_property>
+      <obj_property name="ObjectShortName">secondCoin[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/remaining" type="array">
+      <obj_property name="ElementShortName">remaining[3:0]</obj_property>
+      <obj_property name="ObjectShortName">remaining[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/exactAmount" type="logic">
+      <obj_property name="ElementShortName">exactAmount</obj_property>
+      <obj_property name="ObjectShortName">exactAmount</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/notEnoughChange" type="logic">
+      <obj_property name="ElementShortName">notEnoughChange</obj_property>
+      <obj_property name="ObjectShortName">notEnoughChange</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/coughUpMore" type="logic">
+      <obj_property name="ElementShortName">coughUpMore</obj_property>
+      <obj_property name="ObjectShortName">coughUpMore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/temp" type="array">
+      <obj_property name="ElementShortName">temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="96.001 ns"></ZoomEndTime>
+      <Cursor1Time time="15.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="129"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/top/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/rstN" type="logic">
+      <obj_property name="ElementShortName">rstN</obj_property>
+      <obj_property name="ObjectShortName">rstN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/i" type="logic">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/j" type="logic">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/x" type="logic">
+      <obj_property name="ElementShortName">x</obj_property>
+      <obj_property name="ObjectShortName">x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/y" type="logic">
+      <obj_property name="ElementShortName">y</obj_property>
+      <obj_property name="ObjectShortName">y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/dut/nextState" type="array">
+      <obj_property name="ElementShortName">nextState[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nextState[1:0]</obj_property>
+   </wvobject>
+</wave_config>

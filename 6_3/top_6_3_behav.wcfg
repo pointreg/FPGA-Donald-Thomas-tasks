@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="69.328 ns"></ZoomEndTime>
+      <Cursor1Time time="43.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="121"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/top/MSA/slaves_qtty" type="array">
+      <obj_property name="ElementShortName">slaves_qtty[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slaves_qtty[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/resetN" type="logic">
+      <obj_property name="ElementShortName">resetN</obj_property>
+      <obj_property name="ObjectShortName">resetN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/dataReady" type="logic">
+      <obj_property name="ElementShortName">dataReady</obj_property>
+      <obj_property name="ObjectShortName">dataReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/address" type="array">
+      <obj_property name="ElementShortName">address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/data" type="array">
+      <obj_property name="ElementShortName">data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/master_ans" type="logic">
+      <obj_property name="ElementShortName">master_ans</obj_property>
+      <obj_property name="ObjectShortName">master_ans</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/master_req" type="logic">
+      <obj_property name="ElementShortName">master_req</obj_property>
+      <obj_property name="ObjectShortName">master_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/read_req" type="logic">
+      <obj_property name="ElementShortName">read_req</obj_property>
+      <obj_property name="ObjectShortName">read_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/slave_ans" type="array">
+      <obj_property name="ElementShortName">slave_ans[3:0]</obj_property>
+      <obj_property name="ObjectShortName">slave_ans[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/MSA/slave_req" type="array">
+      <obj_property name="ElementShortName">slave_req[3:0]</obj_property>
+      <obj_property name="ObjectShortName">slave_req[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider52">
+      <obj_property name="label">master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group117" type="group">
+      <obj_property name="label">master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top/m_tb/p_c/M_R_req" type="logic">
+         <obj_property name="ElementShortName">M_R_req</obj_property>
+         <obj_property name="ObjectShortName">M_R_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/m_tb/p_c/M_req" type="logic">
+         <obj_property name="ElementShortName">M_req</obj_property>
+         <obj_property name="ObjectShortName">M_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/m_tb/p_c/DataReg" type="array">
+         <obj_property name="ElementShortName">DataReg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DataReg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/m_tb/p_c/AddrReg" type="array">
+         <obj_property name="ElementShortName">AddrReg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">AddrReg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/m_tb/p_c/State" type="array">
+         <obj_property name="ElementShortName">State[31:0]</obj_property>
+         <obj_property name="ObjectShortName">State[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/m_tb/p_c/NextState" type="array">
+         <obj_property name="ElementShortName">NextState[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NextState[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider51">
+      <obj_property name="label">proc received data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group122" type="group">
+      <obj_property name="label">proc received data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top/m_tb/Avalue" type="array">
+         <obj_property name="ElementShortName">Avalue[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Avalue[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top/m_tb/Dvalue" type="array">
+         <obj_property name="ElementShortName">Dvalue[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Dvalue[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider22">
+      <obj_property name="label">arbitrator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/a/temp" type="array">
+      <obj_property name="ElementShortName">temp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/a/qtty_of_requests" type="array">
+      <obj_property name="ElementShortName">qtty_of_requests[2:0]</obj_property>
+      <obj_property name="ObjectShortName">qtty_of_requests[2:0]</obj_property>
+   </wvobject>
+</wave_config>

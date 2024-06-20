@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="32.751 ns"></ZoomEndTime>
+      <Cursor1Time time="33.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/top/data" type="array">
+      <obj_property name="ElementShortName">data[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/crc_en" type="logic">
+      <obj_property name="ElementShortName">crc_en</obj_property>
+      <obj_property name="ObjectShortName">crc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/crc_out" type="logic">
+      <obj_property name="ElementShortName">crc_out</obj_property>
+      <obj_property name="ObjectShortName">crc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/inv_crc_out" type="logic">
+      <obj_property name="ElementShortName">inv_crc_out</obj_property>
+      <obj_property name="ObjectShortName">inv_crc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/OK" type="logic">
+      <obj_property name="ElementShortName">OK</obj_property>
+      <obj_property name="ObjectShortName">OK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/lfsr_q" type="array">
+      <obj_property name="ElementShortName">lfsr_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_q[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/lfsr_c" type="array">
+      <obj_property name="ElementShortName">lfsr_c[4:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_c[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/calc_crc" type="array">
+      <obj_property name="ElementShortName">calc_crc[4:0]</obj_property>
+      <obj_property name="ObjectShortName">calc_crc[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/cntr" type="array">
+      <obj_property name="ElementShortName">cntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cntr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/cntr2" type="array">
+      <obj_property name="ElementShortName">cntr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cntr2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/ld" type="logic">
+      <obj_property name="ElementShortName">ld</obj_property>
+      <obj_property name="ObjectShortName">ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/uut/CRC_START_COND" type="array">
+      <obj_property name="ElementShortName">CRC_START_COND[4:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC_START_COND[4:0]</obj_property>
+   </wvobject>
+</wave_config>
